@@ -2,6 +2,7 @@ body{
     font-family: 'Mukta';
     background: linear-gradient(90deg, #4B4B4B, #1A1A1A);
     color: white !important;
+    height: 1920px;
 }
 
 /* begin::navbar */
@@ -107,6 +108,8 @@ h2 {
 
 /* begin::services-section  */
 
+/* begin::big-card  */
+
 .services-section .container {
     margin-top: 100px;
 }
@@ -119,33 +122,47 @@ h2 {
     background: rgb(24, 24, 24) !important;
 }
 
-.services-section .row .card-1 {
-
-}
-
-.services-section .row .big-card {
-    height: 800px;
-}
-
 h3 {
-    font-size: 24px;
+    font-size: 24px !important;
     font-weight: 500;
     line-height: 32px;
     color: #fff;
 }
+
+/* begin::big-card::read-more  */
 
 .read-more-link {
     color: white !important;
     text-decoration: none;
 }
 
-.read-more {
-    margin-top: 80px;
+.read-more  {
+    margin-top: 80px
+}
+
+.read-more .title {
+    text-decoration: none;
+    color: white;
+}
+
+.read-more .title:hover {
+    color: #D4A55D !important;
+}
+
+.flex-column {
+    flex-direction: column!important;
 }
 
 hr {
-    width: 590px !important;
-    margin-left: 23px !important;
+    margin: 16px 0px 22px;
+    
 }
+
+.w-100 {
+    width: 100% !important;
+}
+/* end::big-card::read-more */
+
+/* end::big-card */
 
 /* end::services-section */
