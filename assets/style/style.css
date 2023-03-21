@@ -189,6 +189,8 @@ hr {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
+/* begin::benefits-section::columns  */
+
 .benefits-section .text-holder {
     position: relative;
     padding-left: 0;
@@ -200,14 +202,39 @@ hr {
 }
 
 .benefits-section img {
-    width: 80px !important;
-    height: 70px !important;
+    width: 70px;
+    height: 70px;
 }
 
 .benefits-section .row {
     margin-top: 80px !important;
 }
 
+/* end::benefits-section::columns  */
+
 /* end::benefits-section::overlay */
 
 /* end::benefits-section  */
+
+
+
+/* begin::about  */
+
+.about-section .img {
+    background-image: url(/assets/img/20220718_131301.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: 400px;
+}
+
+.about-section .content h2 {
+    margin-top: 385px;
+}
+
+@media (min-width: 768px)
+.order-md-5 {
+    order: 5!important;
+}
+
+/* end::about  */
