@@ -2,7 +2,11 @@ body{
     font-family: 'Mukta';
     background: linear-gradient(90deg, #4B4B4B, #1A1A1A);
     color: white !important;
+<<<<<<< HEAD
     height: 2920px;
+=======
+    height: 1920px;
+>>>>>>> dc34d4ac58bf502a39c625c534c6908779544863
 }
 
 /* begin::navbar */
@@ -44,7 +48,11 @@ body{
 /* begin::hero-section */
 
 .hero-section .container-fluid {
+<<<<<<< HEAD
     background-image: url(/assets/img/dark-bg.png);
+=======
+    background-image: url(/infinity/assets/img/dark-bg.png);
+>>>>>>> dc34d4ac58bf502a39c625c534c6908779544863
     height: 666px;
     padding-top: 115px !important;
     padding-bottom: 130px !important;
@@ -106,7 +114,10 @@ h2 {
 /* end::hero-section */
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> dc34d4ac58bf502a39c625c534c6908779544863
 /* begin::services-section  */
 
 /* begin::big-card  */
@@ -166,6 +177,7 @@ hr {
 
 /* end::big-card */
 
+<<<<<<< HEAD
 /* end::services-section */
 
 
@@ -238,3 +250,6 @@ hr {
 }
 
 /* end::about  */
+=======
+/* end::services-section */
+>>>>>>> dc34d4ac58bf502a39c625c534c6908779544863
