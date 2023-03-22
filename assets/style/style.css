@@ -38,6 +38,24 @@ body{
     background-image: url(/assets/img/menu.svg);
 }
 
+.dropdown-menu {
+    background: #060607 !important;
+    border-radius: 0px !important;
+    padding: 30px 20px !important;
+}
+
+.dropdown-menu .dropdown-item {
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    margin-left: -10px;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background: rgba(255, 0, 0, 0) !important;
+    color: white;
+}
+
 /* end::navbar */
 
 
@@ -292,14 +310,72 @@ hr {
         text-align: center;
     }
 
+    .services-card .read-more {
+        margin-top: 50px !important;
+    }
+
+    .services-card .read-more {
+        margin-top: 50px !important;
+    }
+
     .baner  {
         text-align: center;
         height: 290px;
     }
-
-
   }
 
-  
+
+
+  @media only screen and (max-width: 992px) and (min-width: 767px) {
+    .about-section .content {
+        margin-top: -300px;
+        text-align: center;
+    }
+
+    .baner  {
+        text-align: center;
+        height: 280px;
+    }
+
+    .baner h2 {
+        margin-top: -1px;
+    }
+
+    .nav-link {
+        background: #060607;
+    }
+
+    .btn-header {
+        width: 680px;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) and (min-width: 993px) {
+    .baner  {
+        text-align: center;
+        height: 250px;
+    }
+
+    .baner h2 {
+        margin-top: -1px;
+    }
+
+    @media (min-width: 576px){
+    .order-sm-2 {
+        order: 2!important;
+    }
+}
+
+@media (min-width: 126px) {
+    .order-sm-2 {
+        order: 2!important;
+    }
+}
+
 
 /* end::phone  */
+
+
+.slider .overlay {
+    background: red;
+}
